@@ -163,7 +163,7 @@ export default function ResearchPage() {
       <footer className="w-full border-t py-6">
         <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
           <p className="text-center text-sm text-muted-foreground md:text-left">
-            Agile Visibility Project — Program Manager Intern at Autodesk
+            Agile Innovation Project — Program Manager Intern at Autodesk
           </p>
           <nav className="flex gap-4 sm:gap-6">
             <Link

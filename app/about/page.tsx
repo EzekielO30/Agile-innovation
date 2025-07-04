@@ -11,7 +11,7 @@ export default function AboutPage() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2 font-semibold">
             <BarChart2 className="h-5 w-5" />
-            <span>Agile Visibility Project</span>
+            <span>Agile Innovation Project</span>
           </div>
           <nav className="hidden md:flex gap-6">
             <Link href="/" className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary">
@@ -106,7 +106,6 @@ export default function AboutPage() {
                         <li>Data analysis and visualization</li>
                         <li>Dashboard design and implementation</li>
                         <li>Jira and Faros data integration</li>
-                        <li>No-code solution development</li>
                         <li>Agile methodology adaptation</li>
                       </ul>
                     </div>
@@ -132,19 +131,20 @@ export default function AboutPage() {
                 <CardContent>
                   <div className="flex flex-col items-center space-y-4 sm:flex-row sm:space-x-6 sm:space-y-0">
                     <Button variant="outline" className="w-full sm:w-auto bg-transparent" asChild>
-                      <a href="#" target="_blank" rel="noopener noreferrer">
+                      <a href="mailto:oyebodeezekiel3@gmail.com" target="_blank" rel="noopener noreferrer">
+
                         <Mail className="mr-2 h-4 w-4" />
                         Email
                       </a>
                     </Button>
                     <Button variant="outline" className="w-full sm:w-auto bg-transparent" asChild>
-                      <a href="#" target="_blank" rel="noopener noreferrer">
+                      <a href="https://www.linkedin.com/in/ezekieloyebode30/" target="_blank" rel="noopener noreferrer">
                         <Linkedin className="mr-2 h-4 w-4" />
                         LinkedIn
                       </a>
                     </Button>
                     <Button variant="outline" className="w-full sm:w-auto bg-transparent" asChild>
-                      <a href="#" target="_blank" rel="noopener noreferrer">
+                      <a href="https://github.com/example" target="_blank" rel="noopener noreferrer">
                         <Github className="mr-2 h-4 w-4" />
                         GitHub
                       </a>
@@ -159,7 +159,7 @@ export default function AboutPage() {
       <footer className="w-full border-t py-6">
         <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
           <p className="text-center text-sm text-muted-foreground md:text-left">
-            Agility for innovation teams — Program Manager Intern at Autodesk
+            Agile Visibility Project — Program Manager Intern at Autodesk
           </p>
           <nav className="flex gap-4 sm:gap-6">
             <Link
